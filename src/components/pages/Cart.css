@@ -1,0 +1,57 @@
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #ccc; /* Dull white color */
+}
+
+.cart-container {
+    background-image: url("https://shorturl.at/ehjkU");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    padding: 50px;
+    overflow-y: auto;
+}
+/* background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* This line makes the background fixed */
+  /* padding: 50px;
+  min-height: 100vh; /* Ensure the container covers the viewport height */
+  /* box-sizing: border-box;
+  overflow-y: auto; Enable */ 
+
+.cart-table {
+    opacity: 0.7;
+    width: 100%; /* Decrease the width of the table */
+    margin: 0 auto; /* Center the table */
+    font-size: large; /* Increase font size */
+    color: white; /* Set text color to white */
+    background-color: #555; /* Grey background color */
+    border: 4px solid #999; /* Grey border */
+}
+
+
+.cart-table td,
+.cart-table th {
+    border: 2px solid #999; /* Grey inner border */
+    padding: 12px; /* Increase padding for readability */
+    text-align: left;
+    width: 100px;
+}
+
+.cart-table td {
+    background-color: black; /* Set background color of table data cells to black */
+}
+
+.cart-table th {
+    display: none;
+    background-color: #f2f2f2;
+}
+
+.cart-pic {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}

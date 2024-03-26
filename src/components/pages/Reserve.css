@@ -1,0 +1,55 @@
+.reserve-container{
+  background-image:url('../media/cc.jpg');
+  background-size:auto;
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: center;
+  height: 100vh;
+}
+.reserve-container > h1 {
+  margin-top: 20px;
+  color:rgba(245, 188, 65, 0.819);
+  font-size: 32px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+.reserve-form {
+  width: 350px;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.9); 
+  opacity: 0.95;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #000000;
+}
+
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #f2e489;
+  border-radius: 4px;
+}
+
+
+button[type="submit"] {
+  background-color: #f7d52c;
+  color: rgb(5, 4, 4);
+  padding: 14px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+button[type="submit"]:hover {
+  background-color: #f76809;
+}

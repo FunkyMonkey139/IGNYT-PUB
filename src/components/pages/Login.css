@@ -1,0 +1,66 @@
+  .login-container {
+    background-image: url("https://shorturl.at/jmJTW");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    padding-top: 50px; 
+  }
+
+  .login-form {
+    width: 350px;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-top: 70px; 
+  }
+  
+
+  label {
+    display: block;
+  margin-bottom: 8px;
+  color: #333;
+  }
+  
+ 
+  input {
+    width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  }
+  
+ 
+  button{
+    background-color: #625ca3;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+
+  button:hover {
+    background-color: #2263b7;
+    opacity: 0.8;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .login-form {
+        width: 80%;
+        max-width: 400px; /* Optional: You can add a maximum width */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .login-form {
+        width: 90%;
+        max-width: 350px; /* Optional: You can add a maximum width */
+    }
+}

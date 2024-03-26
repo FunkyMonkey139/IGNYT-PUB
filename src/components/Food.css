@@ -1,0 +1,59 @@
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.food-container {
+  background-image: url("https://shorturl.at/hlyQ0"); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* This line makes the background fixed */
+  padding: 50px;
+  min-height: 100vh; /* Ensure the container covers the viewport height */
+  box-sizing: border-box; /* Include padding in the height calculation */
+  overflow-y: auto; /* Enable vertical scrolling if content exceeds viewport */
+}
+
+
+/* Your existing styles for .food-table and other elements */
+
+
+.food-table {
+  width: 100%;
+  border-collapse: collapse;
+  opacity: 0.7;
+  border: none; /* Remove table border */
+}
+
+.food-table th,
+.food-table td {
+  border: none; /* Remove border for table cells */
+  padding: 8px;
+  text-align: left;
+}
+
+.food-table th {
+  display: none;
+  background-color: #f2f2f2;
+}
+
+.food-pic {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+}
+/* Media Query for Phones */
+@media only screen and (max-width: 767px) {
+  .food-container {
+      padding: 10px;
+  }
+}
+
+/* Media Query for Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .food-container {
+      padding: 10%;
+  }
+}
+

@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+}
+
+.prod {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+ 
+.walkessentials,
+.toys,
+.foodandtreats,
+.accessories {
+    width:25%;
+    height: fit-content;
+    margin: 10px; 
+    display: inline-block; 
+    vertical-align: top; 
+    /* box-sizing: border-box;*/
+} 
+
+
+.cards {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Product images */
+.cards img {
+    width: 100%;
+    height: auto;
+}
+
+/* Container for text content */
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for product links */
+.container a {
+    display: inline-block; /* Display as block with inline behavior */
+    background-color: #040404;
+    color: rgba(255, 252, 252, 0.969);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; 
+    transition: background-color 0.3s ease; 
+}
+
+/* Hover effect for product links */
+.container a:hover {
+    background-color: #1e6e69;
+}
+
+
+p {
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 20px;
+}
